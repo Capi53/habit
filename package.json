@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@types/react-native": "^0.70.8",
+    "react-native-web": "^0.18.10"
+  }
+}
