@@ -1,7 +1,7 @@
 import React from "react";
 import logo from './logo.svg';
 import './App.css';
-import main from './components/main';
+import Main from './components/Main';
 import { render } from "@testing-library/react";
 import { StyleSheet, Text, View } from 'react-native';
 
@@ -15,14 +15,9 @@ function App() {
   // }
 
   return(
-  render (
-      
-      <View>
-        {/* <main date=this.state.date/> */}
-        <Text>ああ</Text>
-        <main/>
-      </View>
-    )
+    <View>
+      <Main />
+    </View>
   )
 }
 

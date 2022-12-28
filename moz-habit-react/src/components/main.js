@@ -1,13 +1,17 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default class main extends React.Component {
+export default class Main extends React.Component {
+    constructor(props) {
+        super(props);
+        this.date = "fuga";
+    }    
+
     render() {
         return (
-            <View>
                 <div className="App">
                 <header className="App-header">
-        {/* <Text>{this.props.date}</Text>  */}
+        <Text>{this.props.date}</Text> 
                 
                 {/* <img src={logo} className="App-logo" alt="logo" /> 
                 <p>
@@ -49,7 +53,6 @@ export default class main extends React.Component {
                 </div>
                 </body>
                 </div>
-            </View>
         )
     }
 }
