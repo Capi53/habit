@@ -75,7 +75,7 @@
 }
 
 .content > progress {
-  width: 70vw;
+  width: 75vw;
 }
 
 .box-schedule {
@@ -88,6 +88,52 @@
   margin-bottom: 1.5em;
   border-radius: 5px;
   width:45px;
+}
+
+.in-task {
+  display: flex;
+  /* flex-direction: row; */
+  /* text-align: right; */
+  width: 75vw;
+}
+
+.task_title {
+  display:inline-block;
+  position: relative;
+  margin-right:auto;
+  /* justify-content: space-between; */
+}
+
+.in-task p{
+  display:inline-block;
+  position: relative;
+  text-align:center;
+  font-size: x-large;
+  margin-left:auto;
+  margin-top:0;
+  padding:10px;
+  margin-bottom:0;
+  /* justify-content: space-between; */
+}
+
+.record-button {
+  display: flex;
+  text-align: right;
+  width: 40vw;
+  margin-left:auto;
+}
+
+.record-button > button {
+  display: relative;
+  margin-left: auto;
+  text-align: right;
+  justify-content: space-evenly;
+
+  /* border-radius: 50%; */
+  /* background-color: #435455; */
+  border:none;
+  background-color: transparent;
+  outline:none;
 }
 
 .continue-date{
@@ -103,6 +149,29 @@
 .App-link {
   color: #61dafb;
 }
+
+/* icon */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+  ;
+  color: #6adafb;
+}
+
+.material-symbols-outlined:hover {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+  ;
+  /* color: #6adafb; */
+  color: black;
+}
+
 
 @keyframes App-logo-spin {
   from {
